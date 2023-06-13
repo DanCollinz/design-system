@@ -27,7 +27,7 @@
   background-color: #E6E6E6;
   color: #1b1b1b;
   border: none;
-  order-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
 
 .table thead th {
@@ -41,7 +41,7 @@
   border:1px solid #dedede;
 }
 
-.table th, .table td {
+.table th, td {
   padding:  20px;
   text-align: left;
 }
