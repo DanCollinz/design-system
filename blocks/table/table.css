@@ -33,23 +33,26 @@
   color:#1b1b1b;
   border:none;
 }
+
 .table thead th{
   background-color: #E6E6E6;
   color:#1b1b1b;
   border:none;
 }
+
 .table thead tr {
   border-bottom: 1px solid;
   background-color:  #E6E6E6;
 }
 
-.table table tbody tr:nth-child(even)
+.table tbody tr:nth-child(even)
 {
   background-color: #F6F6F6;
   border:1px solid #dedede;
 }
 
 .table th, .table table td {
+
   padding:  20px;
   text-align: left;
 }
