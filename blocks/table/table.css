@@ -27,16 +27,13 @@
   background-color: #E6E6E6;
   color: #1b1b1b;
   border: none;
+  order-bottom: 1px solid;
 }
 
 .table thead th {
   background-color: #E6E6E6;
   color:#1b1b1b;
   border:none;
-}
-.table thead tr {
-  border-bottom: 1px solid;
-  background-color: #E6E6E6;
 }
 
 .table tbody tr:nth-child(even) {
