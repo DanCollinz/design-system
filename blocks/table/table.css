@@ -41,7 +41,7 @@
   border:1px solid #dedede;
 }
 
-.table th, td {
+.table th td {
   padding:  20px;
   text-align: left;
 }
