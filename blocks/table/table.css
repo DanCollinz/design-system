@@ -1,13 +1,10 @@
 .table {
   width: 100%;
   overflow-x: auto;
-  border-radius: 0px;
   overflow: hidden;
-  box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -moz-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -webkit-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -o-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
-  -ms-box-shadow: 0 0 40px 0 rgba(0,0,0,.15);
+  box-shadow: 0 0 40px 0 rgba(0 0 0 /.15);
+  -moz-box-shadow: 0 0 40px 0 rgba(0 0 0 / 0.15);
+  -o-box-shadow: 0 0 40px 0 rgba(0 0 0 / 0.15);
 }
 
 .table table {
@@ -43,13 +40,13 @@
   background-color:  #E6E6E6;
 }
 
-.table table tbody tr:nth-child(even)
+.table tbody tr:nth-child(even)
 {
   background-color: #F6F6F6;
   border:1px solid #dedede;
 }
 
-.table th, .table table td {
+.table th, .table td {
   padding:  20px;
   text-align: left;
 }
@@ -60,6 +57,6 @@
 }
 
 /* bordered variant */
-.table.bordered table th, .table.bordered table td {
+.table.bordered th, .table.bordered table td {
   border: 1px solid;
 }
